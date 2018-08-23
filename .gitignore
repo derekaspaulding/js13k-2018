@@ -2,3 +2,4 @@
 dist
 node_modules
 js13k.zip
+.DS_Store

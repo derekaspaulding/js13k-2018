@@ -1,2 +1,4 @@
-const container = document.querySelector('.root');
-container.innerHTML = "<h1>Hello World!</h1>";
+import Canvas from './canvas';
+
+const canvas = new Canvas('container', 'game-canvas', 10, 10);
+canvas.drawGrid();
